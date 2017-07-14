@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2183EE8C1F185B7400F84382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2183EE8B1F185B7400F84382 /* AppDelegate.swift */; };
+		2183EE8E1F185B7400F84382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2183EE8D1F185B7400F84382 /* ViewController.swift */; };
+		2183EE911F185B7400F84382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2183EE8F1F185B7400F84382 /* Main.storyboard */; };
+		2183EE931F185B7400F84382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2183EE921F185B7400F84382 /* Assets.xcassets */; };
+		2183EE961F185B7400F84382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2183EE941F185B7400F84382 /* LaunchScreen.storyboard */; };
+		2183EEA11F185B7400F84382 /* EasyChatBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2183EEA01F185B7400F84382 /* EasyChatBarTests.swift */; };
+		2183EEAC1F185B7400F84382 /* EasyChatBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2183EEAB1F185B7400F84382 /* EasyChatBarUITests.swift */; };
+		21C280A11F18A070006363BF /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C2809E1F18A070006363BF /* EmojiCollectionViewCell.swift */; };
+		21C280A21F18A070006363BF /* EmojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21C2809F1F18A070006363BF /* EmojiCollectionViewCell.xib */; };
+		21C280A31F18A070006363BF /* EmojiKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C280A01F18A070006363BF /* EmojiKeyBoard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2183EE9D1F185B7400F84382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2183EE801F185B7400F84382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2183EE871F185B7400F84382;
+			remoteInfo = EasyChatBar;
+		};
+		2183EEA81F185B7400F84382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2183EE801F185B7400F84382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2183EE871F185B7400F84382;
+			remoteInfo = EasyChatBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2183EE881F185B7400F84382 /* EasyChatBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyChatBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2183EE8B1F185B7400F84382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2183EE8D1F185B7400F84382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2183EE901F185B7400F84382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2183EE921F185B7400F84382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2183EE951F185B7400F84382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2183EE971F185B7400F84382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2183EE9C1F185B7400F84382 /* EasyChatBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyChatBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2183EEA01F185B7400F84382 /* EasyChatBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyChatBarTests.swift; sourceTree = "<group>"; };
+		2183EEA21F185B7400F84382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2183EEA71F185B7400F84382 /* EasyChatBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyChatBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2183EEAB1F185B7400F84382 /* EasyChatBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyChatBarUITests.swift; sourceTree = "<group>"; };
+		2183EEAD1F185B7400F84382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21C2809E1F18A070006363BF /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		21C2809F1F18A070006363BF /* EmojiCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiCollectionViewCell.xib; sourceTree = "<group>"; };
+		21C280A01F18A070006363BF /* EmojiKeyBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiKeyBoard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2183EE851F185B7400F84382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2183EE991F185B7400F84382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2183EEA41F185B7400F84382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2183EE7F1F185B7400F84382 = {
+			isa = PBXGroup;
+			children = (
+				2183EE8A1F185B7400F84382 /* EasyChatBar */,
+				2183EE9F1F185B7400F84382 /* EasyChatBarTests */,
+				2183EEAA1F185B7400F84382 /* EasyChatBarUITests */,
+				2183EE891F185B7400F84382 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2183EE891F185B7400F84382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2183EE881F185B7400F84382 /* EasyChatBar.app */,
+				2183EE9C1F185B7400F84382 /* EasyChatBarTests.xctest */,
+				2183EEA71F185B7400F84382 /* EasyChatBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2183EE8A1F185B7400F84382 /* EasyChatBar */ = {
+			isa = PBXGroup;
+			children = (
+				21C2809D1F18A070006363BF /* EmojiKeyBoard */,
+				2183EE8B1F185B7400F84382 /* AppDelegate.swift */,
+				2183EE8D1F185B7400F84382 /* ViewController.swift */,
+				2183EE8F1F185B7400F84382 /* Main.storyboard */,
+				2183EE921F185B7400F84382 /* Assets.xcassets */,
+				2183EE941F185B7400F84382 /* LaunchScreen.storyboard */,
+				2183EE971F185B7400F84382 /* Info.plist */,
+			);
+			path = EasyChatBar;
+			sourceTree = "<group>";
+		};
+		2183EE9F1F185B7400F84382 /* EasyChatBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				2183EEA01F185B7400F84382 /* EasyChatBarTests.swift */,
+				2183EEA21F185B7400F84382 /* Info.plist */,
+			);
+			path = EasyChatBarTests;
+			sourceTree = "<group>";
+		};
+		2183EEAA1F185B7400F84382 /* EasyChatBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2183EEAB1F185B7400F84382 /* EasyChatBarUITests.swift */,
+				2183EEAD1F185B7400F84382 /* Info.plist */,
+			);
+			path = EasyChatBarUITests;
+			sourceTree = "<group>";
+		};
+		21C2809D1F18A070006363BF /* EmojiKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				21C2809E1F18A070006363BF /* EmojiCollectionViewCell.swift */,
+				21C2809F1F18A070006363BF /* EmojiCollectionViewCell.xib */,
+				21C280A01F18A070006363BF /* EmojiKeyBoard.swift */,
+			);
+			path = EmojiKeyBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2183EE871F185B7400F84382 /* EasyChatBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2183EEB01F185B7400F84382 /* Build configuration list for PBXNativeTarget "EasyChatBar" */;
+			buildPhases = (
+				2183EE841F185B7400F84382 /* Sources */,
+				2183EE851F185B7400F84382 /* Frameworks */,
+				2183EE861F185B7400F84382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyChatBar;
+			productName = EasyChatBar;
+			productReference = 2183EE881F185B7400F84382 /* EasyChatBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2183EE9B1F185B7400F84382 /* EasyChatBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2183EEB31F185B7400F84382 /* Build configuration list for PBXNativeTarget "EasyChatBarTests" */;
+			buildPhases = (
+				2183EE981F185B7400F84382 /* Sources */,
+				2183EE991F185B7400F84382 /* Frameworks */,
+				2183EE9A1F185B7400F84382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2183EE9E1F185B7400F84382 /* PBXTargetDependency */,
+			);
+			name = EasyChatBarTests;
+			productName = EasyChatBarTests;
+			productReference = 2183EE9C1F185B7400F84382 /* EasyChatBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2183EEA61F185B7400F84382 /* EasyChatBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2183EEB61F185B7400F84382 /* Build configuration list for PBXNativeTarget "EasyChatBarUITests" */;
+			buildPhases = (
+				2183EEA31F185B7400F84382 /* Sources */,
+				2183EEA41F185B7400F84382 /* Frameworks */,
+				2183EEA51F185B7400F84382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2183EEA91F185B7400F84382 /* PBXTargetDependency */,
+			);
+			name = EasyChatBarUITests;
+			productName = EasyChatBarUITests;
+			productReference = 2183EEA71F185B7400F84382 /* EasyChatBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2183EE801F185B7400F84382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = DSY;
+				TargetAttributes = {
+					2183EE871F185B7400F84382 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ARP7HBHFLD;
+						ProvisioningStyle = Automatic;
+					};
+					2183EE9B1F185B7400F84382 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 59L49R488Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2183EE871F185B7400F84382;
+					};
+					2183EEA61F185B7400F84382 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 59L49R488Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2183EE871F185B7400F84382;
+					};
+				};
+			};
+			buildConfigurationList = 2183EE831F185B7400F84382 /* Build configuration list for PBXProject "EasyChatBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2183EE7F1F185B7400F84382;
+			productRefGroup = 2183EE891F185B7400F84382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2183EE871F185B7400F84382 /* EasyChatBar */,
+				2183EE9B1F185B7400F84382 /* EasyChatBarTests */,
+				2183EEA61F185B7400F84382 /* EasyChatBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2183EE861F185B7400F84382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2183EE961F185B7400F84382 /* LaunchScreen.storyboard in Resources */,
+				2183EE931F185B7400F84382 /* Assets.xcassets in Resources */,
+				2183EE911F185B7400F84382 /* Main.storyboard in Resources */,
+				21C280A21F18A070006363BF /* EmojiCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2183EE9A1F185B7400F84382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2183EEA51F185B7400F84382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2183EE841F185B7400F84382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2183EE8E1F185B7400F84382 /* ViewController.swift in Sources */,
+				21C280A31F18A070006363BF /* EmojiKeyBoard.swift in Sources */,
+				21C280A11F18A070006363BF /* EmojiCollectionViewCell.swift in Sources */,
+				2183EE8C1F185B7400F84382 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2183EE981F185B7400F84382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2183EEA11F185B7400F84382 /* EasyChatBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2183EEA31F185B7400F84382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2183EEAC1F185B7400F84382 /* EasyChatBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2183EE9E1F185B7400F84382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2183EE871F185B7400F84382 /* EasyChatBar */;
+			targetProxy = 2183EE9D1F185B7400F84382 /* PBXContainerItemProxy */;
+		};
+		2183EEA91F185B7400F84382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2183EE871F185B7400F84382 /* EasyChatBar */;
+			targetProxy = 2183EEA81F185B7400F84382 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2183EE8F1F185B7400F84382 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2183EE901F185B7400F84382 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2183EE941F185B7400F84382 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2183EE951F185B7400F84382 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2183EEAE1F185B7400F84382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2183EEAF1F185B7400F84382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2183EEB11F185B7400F84382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ARP7HBHFLD;
+				INFOPLIST_FILE = EasyChatBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.du.EasyChatBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2183EEB21F185B7400F84382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ARP7HBHFLD;
+				INFOPLIST_FILE = EasyChatBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.du.EasyChatBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2183EEB41F185B7400F84382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 59L49R488Z;
+				INFOPLIST_FILE = EasyChatBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.du.EasyChatBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyChatBar.app/EasyChatBar";
+			};
+			name = Debug;
+		};
+		2183EEB51F185B7400F84382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 59L49R488Z;
+				INFOPLIST_FILE = EasyChatBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.du.EasyChatBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyChatBar.app/EasyChatBar";
+			};
+			name = Release;
+		};
+		2183EEB71F185B7400F84382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 59L49R488Z;
+				INFOPLIST_FILE = EasyChatBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.du.EasyChatBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EasyChatBar;
+			};
+			name = Debug;
+		};
+		2183EEB81F185B7400F84382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 59L49R488Z;
+				INFOPLIST_FILE = EasyChatBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.du.EasyChatBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EasyChatBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2183EE831F185B7400F84382 /* Build configuration list for PBXProject "EasyChatBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2183EEAE1F185B7400F84382 /* Debug */,
+				2183EEAF1F185B7400F84382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2183EEB01F185B7400F84382 /* Build configuration list for PBXNativeTarget "EasyChatBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2183EEB11F185B7400F84382 /* Debug */,
+				2183EEB21F185B7400F84382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2183EEB31F185B7400F84382 /* Build configuration list for PBXNativeTarget "EasyChatBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2183EEB41F185B7400F84382 /* Debug */,
+				2183EEB51F185B7400F84382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2183EEB61F185B7400F84382 /* Build configuration list for PBXNativeTarget "EasyChatBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2183EEB71F185B7400F84382 /* Debug */,
+				2183EEB81F185B7400F84382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2183EE801F185B7400F84382 /* Project object */;
+}
