@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21599CC91F18A23500C646C5 /* IMG_1787.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 21599CC81F18A23500C646C5 /* IMG_1787.PNG */; };
 		2183EE8C1F185B7400F84382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2183EE8B1F185B7400F84382 /* AppDelegate.swift */; };
 		2183EE8E1F185B7400F84382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2183EE8D1F185B7400F84382 /* ViewController.swift */; };
 		2183EE911F185B7400F84382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2183EE8F1F185B7400F84382 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21599CC81F18A23500C646C5 /* IMG_1787.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1787.PNG; sourceTree = "<group>"; };
 		2183EE881F185B7400F84382 /* EasyChatBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyChatBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2183EE8B1F185B7400F84382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2183EE8D1F185B7400F84382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21599CC71F18A1F200C646C5 /* screenShots */ = {
+			isa = PBXGroup;
+			children = (
+				21599CC81F18A23500C646C5 /* IMG_1787.PNG */,
+			);
+			path = screenShots;
+			sourceTree = "<group>";
+		};
 		2183EE7F1F185B7400F84382 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		2183EE8A1F185B7400F84382 /* EasyChatBar */ = {
 			isa = PBXGroup;
 			children = (
+				21599CC71F18A1F200C646C5 /* screenShots */,
 				21C2809D1F18A070006363BF /* EmojiKeyBoard */,
 				2183EE8B1F185B7400F84382 /* AppDelegate.swift */,
 				2183EE8D1F185B7400F84382 /* ViewController.swift */,
@@ -255,6 +266,7 @@
 				2183EE961F185B7400F84382 /* LaunchScreen.storyboard in Resources */,
 				2183EE931F185B7400F84382 /* Assets.xcassets in Resources */,
 				2183EE911F185B7400F84382 /* Main.storyboard in Resources */,
+				21599CC91F18A23500C646C5 /* IMG_1787.PNG in Resources */,
 				21C280A21F18A070006363BF /* EmojiCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
